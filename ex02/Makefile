@@ -1,6 +1,6 @@
-NAME = PhoneBook
+NAME = account
 
-FILE = main.cpp Contact.cpp PhoneBook.cpp
+FILE = Account.cpp tests.cpp
 CC = c++ -Wall -Werror -Wextra -std=c++98
 
 OBJ = ${FILE:.cpp=.o}
